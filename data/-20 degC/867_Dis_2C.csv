@@ -1,0 +1,50 @@
+
+
+Measurement ID,867
+Battery Name,Turnigy_5Ah_91198-SN1
+Battery Type,Li-ion
+Circuit,Circuit002
+Program,1715 - Turnigy_NN_Char
+Start Time,6/28/2019 5:07:51 PM
+End Time,7/5/2019 5:30:07 PM
+Test section,Dis_2C
+Comment,
+OrderNo,
+Producer,Turnigy
+Type,Li-ion
+Nominal Voltage,3.7
+Nominal Current,5
+Nominal Capacity,5
+Cells,1
+Maximum Voltage,4.2
+Gassing Voltage,0
+Break Voltage,0
+Charge Factor,0
+Impedance,0.001
+Cold Cranking Current,0
+Energy Density,0
+Comment,Temperature sensor on center of cell face
+
+
+
+Time Stamp,Step,Status,Prog Time,Step Time,Cycle,Cycle Level,Procedure,Voltage,Current,Temperature,Capacity,WhAccu,Cnt,
+[M/d/yyyy h:mm:ss tt],[],[],[hh:mm:ss.ttt],[hh:mm:ss.ttt],[],[],[],[V],[A],[C],[Ah],[Wh],[Cnt],
+7/4/2019 12:44:12 PM,36,DCH,139:36:11.979,00:00:00.110,0,0,Turnigy_NN_Char,2.7805,-10.0000,-18.3361,-0.0003,-0.0008,5.0000,
+7/4/2019 12:44:12 PM,4,ERR,139:36:11.989,00:00:00.000,0,0,Slave_charge,Voltage limit reached!,,,,,,
+7/4/2019 12:44:12 PM,4,PAU,139:36:11.994,00:00:00.005,0,0,Slave_charge,2.7158,0.0000,-18.3361,0.0000,0.0000,5.0000,
+7/5/2019 5:20:27 PM,4,MSG,139:36:12.001,00:00:00.012,0,0,Slave_charge,Continue via BTS-host computer!,,,,,,
+7/5/2019 5:20:27 PM,4,PAU,139:36:12.001,00:00:00.012,0,0,Slave_charge,4.1750,0.0000,23.4236,0.0000,0.0000,5.0000,
+7/5/2019 5:20:27 PM,4,PAU,139:36:12.006,00:00:00.017,0,0,Slave_charge,4.1750,0.0000,23.4236,0.0000,0.0000,5.0000,
+7/5/2019 5:21:27 PM,5,PAU,139:37:12.014,00:01:00.002,0,0,Slave_charge,4.1750,0.0000,23.4236,0.0000,0.0000,5.0000,
+7/5/2019 5:22:27 PM,5,PAU,139:38:12.013,00:02:00.001,0,0,Slave_charge,4.1750,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:23:27 PM,5,PAU,139:39:12.011,00:02:59.999,0,0,Slave_charge,4.1750,0.0000,23.4236,0.0000,0.0000,5.0000,
+7/5/2019 5:24:27 PM,5,PAU,139:40:12.013,00:04:00.001,0,0,Slave_charge,4.1750,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:25:27 PM,5,PAU,139:41:12.014,00:05:00.002,0,0,Slave_charge,4.1750,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:26:27 PM,5,PAU,139:42:12.014,00:06:00.002,0,0,Slave_charge,4.1750,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:27:27 PM,5,PAU,139:43:12.021,00:07:00.009,0,0,Slave_charge,4.1750,0.0000,23.6356,0.0000,0.0000,5.0000,
+7/5/2019 5:28:27 PM,5,PAU,139:44:12.010,00:07:59.998,0,0,Slave_charge,4.1750,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:29:27 PM,5,PAU,139:45:12.017,00:09:00.005,0,0,Slave_charge,4.1750,0.0000,23.4236,0.0000,0.0000,5.0000,
+7/5/2019 5:30:07 PM,5,MSG,139:45:52.366,00:09:40.354,0,0,Slave_charge,Stop via BTS-host computer!,,,,,,
+7/5/2019 5:30:07 PM,5,PAU,139:45:52.366,00:09:40.354,0,0,Slave_charge,4.1748,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:30:07 PM,9999,PAU,139:45:52.376,00:09:40.364,0,0,Slave_charge,4.1748,0.0000,23.5296,0.0000,0.0000,5.0000,
+7/5/2019 5:30:07 PM,9999,STO,139:45:52.380,00:00:00.000,0,0,Slave_charge,4.1748,0.0000,23.5296,0.0000,0.0000,5.0000,
