@@ -34,16 +34,16 @@ Through this repo, I explore advanced battery SoC estimation using extended kalm
 
 ## Key Features
 
-**Multiple SoC Estimation Techniques :**
+- **Multiple SoC Estimation Techniques :**
 Implements and compares EKF, XGBoost, and Feedforward Neural Network (FNN) approaches for battery State of Charge estimation.
 
-**Adaptive EKF with Online Parameter Estimation :**
+- **Adaptive EKF with Online Parameter Estimation :**
 A dedicated EKF model that continuously updates battery parameters in real time for improved accuracy under varying operating conditions.
 
-**Comprehensive Preprocessing Pipeline :**
+- **Comprehensive Preprocessing Pipeline :**
 Includes data cleaning, feature extraction, normalization, and dataset preparation tailored for both model-based and data-driven methods.
 
-**Performance Evaluation & Visualization :**
+- **Performance Evaluation & Visualization :**
 Provides metrics such as RMSE/MAE and includes plots for model comparison, prediction accuracy, and error profiles.
 
 ## Getting Started
@@ -89,7 +89,7 @@ python main.py
 
 ### 🔹 EKF-Based SoC Estimation
 <p align="center">
-  <img src="images/soc_ekf_results.png" width="700">
+  <img src="../EKF/EKF.png" width="700">
 </p>
 
 The EKF provides stable and physically consistent SoC estimation under dynamic load conditions.
@@ -100,7 +100,7 @@ The EKF provides stable and physically consistent SoC estimation under dynamic l
 
 ### 🔹 FNN-Based SoC Estimation
 <p align="center">
-  <img src="images/soc_fnn_results.png" width="700">
+  <img src="../FNN/FNN.png" width="700">
 </p>
 
 The FNN model demonstrates strong nonlinear learning capability with low inference complexity.
@@ -111,7 +111,7 @@ The FNN model demonstrates strong nonlinear learning capability with low inferen
 
 ### 🔹 XGBoost-Based SoC Estimation
 <p align="center">
-  <img src="images/soc_xgboost_results.png" width="700">
+  <img src="../XGBoost/XGBoost.png" width="700">
 </p>
 
 XGBoost achieves high prediction accuracy and strong generalization across varying operating conditions.
