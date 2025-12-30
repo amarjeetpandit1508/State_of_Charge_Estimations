@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Different Methodologies for Li-ion Cell State of Estimation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -62,7 +61,6 @@ This project uses the open source [Turnigy Graphene 5000mAh 65C Li-ion Battery D
 
 - **Change the PATH of datasets in the code**
 
-
 ## Usage
 
 **Running EKF**
@@ -88,33 +86,24 @@ python main.py
 ## Results and Performance Evaluation
 
 ### 🔹 EKF-Based SoC Estimation
-<p align="center">
-  <img src="../EKF/EKF.png" width="700">
-</p>
 
-The EKF provides stable and physically consistent SoC estimation under dynamic load conditions.
+![Figure 1](EKF/EKF.png)
 
 - **RMSE:** `3.03 %`
 
 ---
 
 ### 🔹 FNN-Based SoC Estimation
-<p align="center">
-  <img src="../FNN/FNN.png" width="700">
-</p>
 
-The FNN model demonstrates strong nonlinear learning capability with low inference complexity.
+![Figure 2](FNN/FNN.png)
 
 - **RMSE:** `1.16 %`
 
 ---
 
 ### 🔹 XGBoost-Based SoC Estimation
-<p align="center">
-  <img src="../XGBoost/XGBoost.png" width="700">
-</p>
 
-XGBoost achieves high prediction accuracy and strong generalization across varying operating conditions.
+![Figure 3](XGBOOST/XGBoost.png)
 
 - **RMSE:** `0.16 %` 
 
@@ -142,9 +131,6 @@ I extend my sincere appreciation to **Kollmeyer Phillip** and **Skells Michael**
 ## References
 
 [1] Kollmeyer, Phillip; Skells, Michael (2020), “Turnigy Graphene 5000mAh 65C Li-ion Battery Data”, Mendeley Data, V1, doi: 10.17632/4fx8cjprxm.1
-=======
-State of Estimations through various techniques
 
-Reference:
-Vishwas (vstark) on Github
->>>>>>> 72f89db2c2083a961131681e114437df5f3dda21
+
+
