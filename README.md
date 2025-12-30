@@ -14,7 +14,7 @@
 - [Description](#description)
 - [Key Features](#key-features)
 - [Getting Started](#getting-started)
-  - [Download the Dataset](#download-the-dataset)
+  - [Dataset](#dataset)
   - [Setup](#setup)
 - [Usage](#usage)
 - [Results](#results)
@@ -23,13 +23,9 @@
 
 ## Description 
 
-This project focuses on State of Charge (SoC) estimation for lithium-ion batteries using a combination of model based and data driven techniques. The study evaluates the performance of Extended Kalman Filter (EKF), XGBoost, and Feedforward Neural Network (FNN) models for accurate SoC prediction.
+This project focuses on State of Charge (SoC) estimation for lithium-ion batteries using a combination of model based and data driven techniques. The study evaluates the performance of Extended Kalman Filter (EKF), XGBoost, and Feedforward Neural Network (FNN) models for accurate SoC prediction. In addition, a separate EKF framework was developed using online parameter estimation, enabling the filter to adapt to varying battery conditions and improve estimation reliability over time. 
 
-In addition, a separate EKF framework was developed using online parameter estimation, enabling the filter to adapt to varying battery conditions and improve estimation reliability over time.
-
-All the simulations were conducted using the Turnigy graphene battery datasets, which provide real-world cycling and degradation data.
-
-Through this repo, I explore advanced battery SoC estimation using extended kalman filter, machine learning and deep learning techniques, mainly for me to expand on experience learnt in career + courses + self-learning while identifying areas for self-improvement in my own knowledge and skills.
+All the simulations were conducted using the Turnigy graphene battery datasets, which provide real-world cycling and degradation data. Through this repo, I explore advanced battery SoC estimation using extended kalman filter, machine learning and deep learning techniques, mainly for me to expand on experience learnt in career + courses + self-learning while identifying areas for self-improvement in my own knowledge and skills.
 
 ## Key Features
 
