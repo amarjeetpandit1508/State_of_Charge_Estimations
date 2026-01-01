@@ -19,11 +19,11 @@
 - [Usage](#usage)
 - [Results](#results)
 - [Credits](#credits)
-- [Acknowledgement](#acknowledgement)
+- [References](#references)
 
 ## Description 
 
-This project focuses on State of Charge (SoC) estimation for lithium-ion batteries using a combination of model based and data driven techniques. The study evaluates the performance of Extended Kalman Filter (EKF), XGBoost, and Feedforward Neural Network (FNN) models for accurate SoC prediction. In addition, a separate EKF framework was developed using online parameter estimation, enabling the filter to adapt to varying battery conditions and improve estimation reliability over time. 
+This project focuses on State of Charge (SoC) estimation for lithium-ion batteries using a combination of model based and data driven techniques. The study evaluates the performance of Extended Kalman Filter (EKF), XGBoost, and Feedforward Neural Network (FNN) models for accurate SoC prediction. 
 
 All the simulations were conducted using the Turnigy graphene battery datasets, which provide real-world cycling and degradation data. Through this repo, I explore advanced battery SoC estimation using extended kalman filter, machine learning and deep learning techniques, mainly for me to expand on experience learnt in career + courses + self-learning while identifying areas for self-improvement in my own knowledge and skills.
 
@@ -31,9 +31,6 @@ All the simulations were conducted using the Turnigy graphene battery datasets, 
 
 - **Multiple SoC Estimation Techniques :**
 Implements and compares EKF, XGBoost, and Feedforward Neural Network (FNN) approaches for battery State of Charge estimation.
-
-- **Adaptive EKF with Online Parameter Estimation :**
-A dedicated EKF model that continuously updates battery parameters in real time for improved accuracy under varying operating conditions.
 
 - **Comprehensive Preprocessing Pipeline :**
 Includes data cleaning, feature extraction, normalization, and dataset preparation tailored for both model-based and data-driven methods.
@@ -117,12 +114,6 @@ This project uses the following open-source libraries, frameworks, and algorithm
 - **[Matplotlib](https://matplotlib.org/)** – Plotting and data visualization  
 - **[SciPy](https://scipy.org/)** – Scientific computing and numerical algorithms
 
-
-## Acknowledgement 
-
-This project is licensed under the [MIT License](https://github.com/sileneer/NRP_2022_EEE12/blob/main/LICENCE).
-
-I extend my sincere appreciation to **Kollmeyer Phillip** and **Skells Michael** for their invaluable work in collecting the `Turnigy Graphene 5000mAh 65C Li-ion Battery Data` and their ongoing research contributions. Their work can be found at: https://data.mendeley.com/datasets/4fx8cjprxm/1
 
 ## References
 
